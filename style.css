@@ -7,6 +7,18 @@ h1 {
     color: white;
 }
 
+#design1, #design2, #design3, #design4, #design5 {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.d1, .d2, .d3, .d4, .d5{
+    text-decoration: none;
+}
+
 footer {
     color: white;
     background-color: black;
