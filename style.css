@@ -7,16 +7,30 @@ h1 {
     color: white;
 }
 
-#design1, #design2, #design3, #design4, #design5 {
+.btn-cover {
     display: flex;
+    width: 90%;
+    margin: 15px auto;
+    justify-content: space-around;
+    border: 5px solid gray;
 }
 
 ul {
     list-style-type: none;
 }
 
-.d1, .d2, .d3, .d4, .d5{
+p.btn, li.btn{
+    width: 15%;
+    height: 3em;
+    text-align: center;
+    border: 2px solid brown;
+}
+
+.d1, .d2, .d3, .d4, .d5, .d6, .d7, .d8, .d9{
+    display: block;
+    line-height: 3em; /* 高さを中央揃え */
     text-decoration: none;
+    border: 1px solid red;
 }
 
 footer {
