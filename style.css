@@ -28,10 +28,35 @@ p.btn, li.btn{
 
 .d1, .d2, .d3, .d4, .d5, .d6, .d7, .d8, .d9{
     display: block;
-    line-height: 3em; /* 高さを中央揃え */
+    line-height: 2.4em; /* 高さを中央揃え …難しい*/
     text-decoration: none;
-    border: 1px solid red;
+    font-size: 20px;
+    font-weight: bold;
 }
+
+/* 色の指定 */
+.btn1 {
+    color: black;
+    background-color: white;
+}
+.btn2 {
+    color: white;
+    background-color: black;
+}
+.btn3 {
+    color: white;
+    background-color: orange;
+}
+.btn4 {
+    color: white;
+    background-color: blue;
+}
+.btn5 {
+    color: white;
+    background-color: red;
+}
+
+
 
 footer {
     color: white;
