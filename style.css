@@ -23,9 +23,8 @@ p.btn, li.btn{
     width: 15%;
     height: 3em;
     text-align: center;
-    border: 2px solid brown;
 }
-
+/* 共通設定 */
 .d1, .d2, .d3, .d4, .d5, .d6, .d7, .d8, .d9{
     display: block;
     line-height: 2.4em; /* 高さを中央揃え …難しい*/
@@ -35,26 +34,148 @@ p.btn, li.btn{
 }
 
 /* 色の指定 */
-.btn1 {
+.d1 {
     color: black;
     background-color: white;
+    border: 3px solid black;
 }
-.btn2 {
+.d2 {
     color: white;
     background-color: black;
+    border: 3px solid black;
 }
-.btn3 {
+.d3 {
     color: white;
     background-color: orange;
+    border: 3px solid orange;
 }
-.btn4 {
+.d4 {
     color: white;
     background-color: blue;
+    border: 3px solid blue;
 }
-.btn5 {
+.d5 {
     color: white;
     background-color: red;
+    border: 3px solid red;
 }
+.d6 {
+    color: white;
+    background-color: green;
+    border: 3px solid green;
+}
+.d7 {
+    color: white;
+    background-color: purple;
+    border: 3px solid purple;
+}
+.d8 {
+    color: white;
+    background-color: pink;
+    border: 3px solid pink;
+}
+.d9 {
+    color: white;
+    background-color:gray;
+    border: 3px solid gray;
+}
+/* btn1hoverデザイン */
+.d1.btn1:hover {
+    color:white;
+    background-color: black;
+}
+.d2.btn1:hover {
+    color:black;
+    background-color: white;
+}
+.d3.btn1:hover {
+    color:orange;
+    background-color: white;
+}
+.d4.btn1:hover {
+    color:blue;
+    background-color: white;
+}
+.d5.btn1:hover {
+    color:red;
+    background-color: white;
+}
+.d6.btn1:hover {
+    color: green;
+    background-color: white;
+}
+.d7.btn1:hover {
+    color:purple;
+    background-color: white;
+}
+.d8.btn1:hover {
+    color:pink;
+    background-color: white;
+}
+.d9.btn1:hover {
+    color: gray;
+    background-color: white;
+}
+
+/* btn2hoverデザイン */
+.d1.btn2:hover {
+    color:white;
+    background-color: black;
+    transition: 0.4s; /* 0.4秒かけて変わる */
+}
+.d2.btn2:hover {
+    color:black;
+    background-color: white;
+    transition: 0.4s; /* 0.4秒かけて変わる */
+}
+.d3.btn2:hover {
+    color:orange;
+    background-color: white;
+    transition: 0.4s; /* 0.4秒かけて変わる */
+}
+.d4.btn2:hover {
+    color:blue;
+    background-color: white;
+    transition: 0.4s; /* 0.4秒かけて変わる */
+}
+.d5.btn2:hover {
+    color:red;
+    background-color: white;
+    transition: 0.4s; /* 0.4秒かけて変わる */
+}
+.d6.btn2:hover {
+    color: green;
+    background-color: white;
+    transition: 0.4s; /* 0.4秒かけて変わる */
+}
+.d7.btn2:hover {
+    color:purple;
+    background-color: white;
+    transition: 0.4s; /* 0.4秒かけて変わる */
+}
+.d8.btn2:hover {
+    color:pink;
+    background-color: white;
+    transition: 0.4s; /* 0.4秒かけて変わる */
+}
+.d9.btn2:hover {
+    color: gray;
+    background-color: white;
+    transition: 0.4s; /* 0.4秒かけて変わる */
+}
+/* btn3hoverデザイン */
+.btn3:hover {
+    text-decoration: underline;
+}
+
+
+/* btn4hoverデザイン */
+/* btn5hoverデザイン */
+/* btn6hoverデザイン */
+/* btn7hoverデザイン */
+/* btn8hoverデザイン */
+/* btn9hoverデザイン */
+
 
 
 
