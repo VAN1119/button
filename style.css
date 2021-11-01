@@ -20,7 +20,7 @@ ul {
 }
 
 p.btn, li.btn{
-    width: 15%;
+    width: 10%;
     height: 3em;
     text-align: center;
 }
@@ -121,47 +121,47 @@ p.btn, li.btn{
 .d1.btn2:hover {
     color:white;
     background-color: black;
-    transition: 0.4s; /* 0.4秒かけて変わる */
+    transition: 1s; /* 1秒かけて変わる */
 }
 .d2.btn2:hover {
     color:black;
     background-color: white;
-    transition: 0.4s; /* 0.4秒かけて変わる */
+    transition: 1s; /* 1秒かけて変わる */
 }
 .d3.btn2:hover {
     color:orange;
     background-color: white;
-    transition: 0.4s; /* 0.4秒かけて変わる */
+    transition: 1s; /* 1秒かけて変わる */
 }
 .d4.btn2:hover {
     color:blue;
     background-color: white;
-    transition: 0.4s; /* 0.4秒かけて変わる */
+    transition: 1s; /* 1秒かけて変わる */
 }
 .d5.btn2:hover {
     color:red;
     background-color: white;
-    transition: 0.4s; /* 0.4秒かけて変わる */
+    transition: 1s; /* 1秒かけて変わる */
 }
 .d6.btn2:hover {
     color: green;
     background-color: white;
-    transition: 0.4s; /* 0.4秒かけて変わる */
+    transition: 1s; /* 1秒かけて変わる */
 }
 .d7.btn2:hover {
     color:purple;
     background-color: white;
-    transition: 0.4s; /* 0.4秒かけて変わる */
+    transition: 1s; /* 1秒かけて変わる */
 }
 .d8.btn2:hover {
     color:pink;
     background-color: white;
-    transition: 0.4s; /* 0.4秒かけて変わる */
+    transition: 1s; /* 1秒かけて変わる */
 }
 .d9.btn2:hover {
     color: gray;
     background-color: white;
-    transition: 0.4s; /* 0.4秒かけて変わる */
+    transition: 1s; /* 1秒かけて変わる */
 }
 /* btn3hoverデザイン */
 .btn3:hover {
@@ -170,10 +170,30 @@ p.btn, li.btn{
 
 
 /* btn4hoverデザイン */
+.btn4:hover {
+    box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
 /* btn5hoverデザイン */
+.btn5:hover {
+    letter-spacing: 7px;
+    transition: 0.6s;
+}
 /* btn6hoverデザイン */
+.btn6:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
 /* btn7hoverデザイン */
+.btn7:hover {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+}
 /* btn8hoverデザイン */
+.btn8:hover {
+    border-radius: 30px;
+    transition: 0.6s;
+}
 /* btn9hoverデザイン */
 
 
