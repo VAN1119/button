@@ -205,9 +205,14 @@ p.btn, li.btn{
     border-radius: 0px;
     transition: 0.6s;
 }
-/* btn4デザイン */
-
-/* btn5デザイン */
+/* btn4デザイン 右と下に5pxの影を付けて影の色をrgb(165, 165, 240)に指定 */
+.d4 {
+    box-shadow: 5px 5px rgb(165, 165, 240);
+}
+/* btn5デザイン 左と上に5pxの影を付けて3px分ぼかし影の色をrgb(243, 195, 195)に指定 */
+.d5 {
+    box-shadow: -5px -5px 3px rgb(243, 195, 195);
+}
 /* btn6デザイン */
 /* btn7デザイン */
 /* btn8デザイン */
