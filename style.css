@@ -31,6 +31,7 @@ p.btn, li.btn{
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
+    border-radius: 5px;
 }
 
 /* 色の指定 */
@@ -67,7 +68,7 @@ p.btn, li.btn{
 .d7 {
     color: white;
     background-color: purple;
-    border: 3px solid purple;
+    border: 5px double black;
 }
 .d8 {
     color: white;
@@ -213,9 +214,25 @@ p.btn, li.btn{
 .d5 {
     box-shadow: -5px -5px 3px rgb(243, 195, 195);
 }
-/* btn6デザイン */
+/* btn6デザイン border-bottomで立体感を出して、hover時に押し込み感を出す*/
+.d6 {
+    border: none;
+    border-bottom: 5px solid rgb(115, 189, 115);
+}
+.d6:hover {
+    margin-top: 3px;
+    border-bottom: 2px solid rgb(115, 189, 115);
+}
 /* btn7デザイン */
+.d7 {
+    border-radius: 50%;
+}
 /* btn8デザイン */
+.d8 {
+    border-radius: 50%;
+    line-height: 100px;
+    
+}
 /* btn9デザイン */
 
 
