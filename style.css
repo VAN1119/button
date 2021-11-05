@@ -216,7 +216,6 @@ p.btn, li.btn{
 }
 /* btn6デザイン border-bottomで立体感を出して、hover時に押し込み感を出す*/
 .d6 {
-    border: none;
     border-bottom: 5px solid rgb(115, 189, 115);
 }
 .d6:hover {
@@ -231,9 +230,17 @@ p.btn, li.btn{
 .d8 {
     border-radius: 50%;
     line-height: 100px;
-    
 }
 /* btn9デザイン */
+.d9 {
+    border-radius: 50%;
+    line-height: 100px;
+    box-shadow: 5px rgb(219, 215, 215);
+}
+.d9:hover {
+    margin-top: 3px;
+    box-shadow: 2px rgb(219, 215, 215);
+}
 
 
 
