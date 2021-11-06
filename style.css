@@ -10,6 +10,7 @@ h1 {
 .btn-cover {
     display: flex;
     width: 90%;
+    height: auto;
     margin: 15px auto;
     justify-content: space-around;
     border: 5px solid gray;
@@ -216,11 +217,11 @@ p.btn, li.btn{
 }
 /* btn6デザイン border-bottomで立体感を出して、hover時に押し込み感を出す*/
 .d6 {
-    border-bottom: 5px solid rgb(115, 189, 115);
+    box-shadow: 0 5px rgb(115, 189, 115);
 }
 .d6:hover {
     margin-top: 3px;
-    border-bottom: 2px solid rgb(115, 189, 115);
+    box-shadow: 0 2px rgb(115, 189, 115);
 }
 /* btn7デザイン */
 .d7 {
@@ -233,13 +234,14 @@ p.btn, li.btn{
 }
 /* btn9デザイン */
 .d9 {
+    border: none;
     border-radius: 50%;
     line-height: 100px;
-    box-shadow: 5px rgb(219, 215, 215);
+    border-bottom: 5px solid rgb(219, 215, 215);
 }
 .d9:hover {
     margin-top: 3px;
-    box-shadow: 2px rgb(219, 215, 215);
+    border-bottom: 2px solid rgb(219, 215, 215);
 }
 
 
