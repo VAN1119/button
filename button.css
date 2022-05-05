@@ -1,0 +1,32 @@
+/* 標準サイズ */
+.btn {
+    display: inline-block;
+    min-width: 200px;
+    padding: 15px 30px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.4;
+}
+
+/* 大サイズ */
+.btn-large {
+    width: 100%;
+    max-width: 320px;
+    padding: 20px 30px;
+    font-size: 1.2em;
+    letter-spacing: 0.08em;
+}
+
+/* 色バリエーション */
+.btn-default {
+    background-color: #383;
+}
+
+.btn-primary {
+    background-color: #eb46a6;
+}
+
+.btn-secondary {
+    background-color: #aaa;
+}
